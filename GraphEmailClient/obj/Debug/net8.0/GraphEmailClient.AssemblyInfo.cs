@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A .NET library for interacting with Microsoft Graph for email operations.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc95317db2442dd812eb2188e1cc495ce37f78f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GraphEmailClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GraphEmailClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
