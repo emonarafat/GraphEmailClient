@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <PackageId>GraphEmailClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>emoarafat</Authors>
+    <Company>YourCompanyName</Company>
+    <Description>A .NET library for interacting with Microsoft Graph for email operations.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/emoarafat/GraphEmailClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emoarafat/GraphEmailClient</RepositoryUrl>
+    <PackageTags>Microsoft Graph Email</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="4.54.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.66.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+  </ItemGroup>
+</Project>
