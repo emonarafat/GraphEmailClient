@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj": {}
+    "d:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj": {}
   },
   "projects": {
-    "D:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj": {
+    "d:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj",
+        "projectUniqueName": "d:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj",
         "projectName": "GraphEmailClient",
-        "projectPath": "D:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj",
+        "projectPath": "d:\\EmailClient\\GraphEmailClient\\GraphEmailClient.csproj",
         "packagesPath": "C:\\Users\\yasee\\.nuget\\packages\\",
-        "outputPath": "D:\\EmailClient\\GraphEmailClient\\obj\\",
+        "outputPath": "d:\\EmailClient\\GraphEmailClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Graph": {
               "target": "Package",
@@ -62,6 +62,18 @@
             "Microsoft.Identity.Client": {
               "target": "Package",
               "version": "[4.66.2, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

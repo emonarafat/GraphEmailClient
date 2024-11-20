@@ -1,1 +1,46 @@
-/.vscode
+# Visual Studio
+.vscode/
+*.user
+*.userprefs
+*.suo
+*.csproj.user
+*.dbmdl
+*.dbproj.user
+*.jfm
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nupkg
+*.snupkg
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
