@@ -18,7 +18,8 @@ x86/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-
+obj
+bin
 # NuGet Packages
 *.nupkg
 *.snupkg
@@ -44,3 +45,4 @@ packages/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+GraphEmailClient/GraphEmailClient.csproj
